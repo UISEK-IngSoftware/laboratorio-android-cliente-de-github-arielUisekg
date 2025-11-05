@@ -1,6 +1,7 @@
 package ec.edu.uisek.githubclient
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -68,6 +69,9 @@ class RepoForm : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<Repo>, t: Throwable) {
+                val errorMsg ="Error al crear el repositorio: ${t.message}"
+                Log.d("RepoForm",errorMsg, t)
+                showMessage(errorMsg)
             }
         })
     }
