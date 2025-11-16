@@ -2,8 +2,10 @@
 ## Datos del estudinte
 - **Nombre completo**: Ariel Esteban Garcés Cevallos
 - **Carrera**: Ingeniería Informática
+- - **Carrera**: Ingeniería Informática
+- **Fecha**: 15/11/2025
 ## Descripción del Proyecto
-Este proyecto es un ejercicio de laboratorio para estudiantes donde se implementará una aplicación Android que simula un cliente de GitHub. La aplicación se centrará en la implementación de interfaces y layouts, sin integración con la API REST de GitHub en esta fase.
+Este proyecto es un ejercicio para una evaluación donde se implementará una aplicación Android que simula un cliente de GitHub. La aplicación se centrará en la implementación de interfaces y layouts, con la integración de la API REST para GITHUB; usando PATCH, DELETE, y GET se logran métodos para crear, editar y eliminar repositorios.
 
 ## Funcionalidades Principales
 
