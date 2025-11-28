@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var reposAdapter: ReposAdapter
     private val apiService: GithubApiService by lazy { // <-- API Service
-        RetrofitClient.gitHubApiService
+        RetrofitClient.getApiService()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

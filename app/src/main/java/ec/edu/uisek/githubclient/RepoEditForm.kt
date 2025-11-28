@@ -22,7 +22,7 @@ class RepoEditForm : AppCompatActivity() {
     private lateinit var saveButton: Button
     private lateinit var cancelButton: Button
     private val apiService: GithubApiService by lazy {
-        RetrofitClient.gitHubApiService
+        RetrofitClient.getApiService()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
